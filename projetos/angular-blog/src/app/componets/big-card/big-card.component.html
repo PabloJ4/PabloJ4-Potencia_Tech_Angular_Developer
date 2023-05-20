@@ -1,15 +1,18 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4DR2Fi3x50mwu6k-0WgmEGHgwXQbThVSew&usqp=CAU"
+      <img src="{{ photoCover }}"
       alt=""
       height="200px"
      
       srcset="">
     </div>
+   
     <div class="big-card__title">
-        <h1>saiu a nova versão do Angular </h1>
+        <h1><a href="#">{{ cardTitle }} </a></h1>
     </div>
     <div class="big-card__description">
-        <p>Entre no site para realizar o dowloander da nova versão</p>
+        <a href="#">
+        <p>{{ cardDescription }}</p>
+        </a>
     </div>
 </div>
